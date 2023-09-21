@@ -4,11 +4,7 @@
 
 # Hier komt je code...
 
-getal = 13
-zin = "wat een weertje"
-getal2 = 12.5
-getal3 = 8
-print (getal)
-print (zin)
-print (getal2)
-print (getal3)
+my_list = [13, "wat een weertje", 12.5, 8]
+
+for item in my_list:
+    print(item)
