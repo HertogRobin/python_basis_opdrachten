@@ -6,4 +6,5 @@
 
 # Hier start de for-loop
 
-my_list = []
+x = range(1, 11)
+y_waarden = [4 * xi + 7 for xi in x]
