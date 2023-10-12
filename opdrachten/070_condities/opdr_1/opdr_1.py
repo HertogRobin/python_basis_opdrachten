@@ -6,7 +6,17 @@
 
 # Hier start de for-loop....
 
-my_list = []
+getallen = []  # Initialiseer een lege lijst om de getallen op te slaan
+
+# Vul de lijst met getallen van 1 t/m 10
+for num in range(1, 11):
+    getallen.append(num)
+
+# Print alleen de getallen groter dan 4
+for num in getallen:
+    if num > 4:
+        print(num)
+
 
 #for loop
 #if statement

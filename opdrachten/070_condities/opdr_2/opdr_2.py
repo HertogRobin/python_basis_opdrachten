@@ -8,6 +8,8 @@
 
 my_list = [43948, 878768, 38768, 87555, 765765]
 
-# for...:
-#   if...:
-#       print()
+# Loop door de lijst met getallen
+for num in my_list:
+    # Controleer of het getal deelbaar is door 3
+    if num % 3 == 0:
+        print(num)
